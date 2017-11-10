@@ -2,7 +2,6 @@
 
 require_once __DIR__ . '/../vendor/autoload.php'; // Autoload files using Composer autoload
 
-use CallWeather\callApi;
+use HellWorld\SayHello;
 
-$city  = 'London';
-callApi::curlInit($city);
+echo SayHello::world();

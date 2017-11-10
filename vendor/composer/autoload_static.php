@@ -14,6 +14,13 @@ class ComposerStaticInitf99a5ee13e98f54daf6fac799b3d56fa
                 0 => __DIR__ . '/../..' . '/src',
             ),
         ),
+        'C' => 
+        array (
+            'CallWeather' => 
+            array (
+                0 => __DIR__ . '/../..' . '/src',
+            ),
+        ),
     );
 
     public static function getInitializer(ClassLoader $loader)
