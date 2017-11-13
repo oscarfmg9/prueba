@@ -38,3 +38,4 @@ $lat = 'latitude';
 $lon = 'longitude';
 $weatherCoor = callApi::getCoorWeather($lat,$lon);
 callApi::pr($weatherCity); //use to print data
+```
