@@ -12,8 +12,8 @@ On GitHub on the [GitHub](https://github.com/oscarfmg9/prueba)
     composer create-project oscarfabian/prueba
 
 Example of getting the weather by City Name
-
-<?php 
+===========================================
+```<?php 
 
 require_once __DIR__ . '/../vendor/autoload.php'; // Autoload files using Composer autoload
 
@@ -23,9 +23,10 @@ $city  = 'City';
 $appID = callApi::setAppId('Your-app-id');
 $weatherCity = callApi::getCityWeather($city);
 callApi::pr($weatherCity); //use to print data
-
+```
 
 Example of getting the weather by Coordinates
+=============================================
 
 ```<?php 
 
