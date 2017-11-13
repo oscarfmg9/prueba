@@ -27,7 +27,7 @@ callApi::pr($weatherCity); //use to print data
 
 Example of getting the weather by Coordinates
 
-<?php 
+```<?php 
 
 require_once __DIR__ . '/../vendor/autoload.php'; // Autoload files using Composer autoload
 
