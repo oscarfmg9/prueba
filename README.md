@@ -7,9 +7,7 @@ This library can be found on [Packagist](https://packagist.org/packages/oscarfab
 The recommended way to install and use this is through [Composer](http://getcomposer.org).
 On GitHub on the [GitHub](https://github.com/oscarfmg9/prueba)
 
-    composer require "oscarfabian/prueba"
-    	or
-    composer create-project oscarfabian/prueba
+    composer create-project oscarfabian/prueba=dev-master
 
 Example of getting the weather by City Name
 ===========================================
